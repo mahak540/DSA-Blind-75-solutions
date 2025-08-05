@@ -17,7 +17,6 @@ public:
             pacQueue.push({r, 0});
             atlQueue.push({r, COLS - 1});
         }
-
         bfs(pacQueue, pac, heights);
         bfs(atlQueue, atl, heights);
 
